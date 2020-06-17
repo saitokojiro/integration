@@ -5,21 +5,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="index.css">
+
+    <!------------------------------Script------------------------------------>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
+
+    <!--------------------------------CSS------------------------------------->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/index.css">
+
 </head>
 
 <body>
     <header>
-        <div class="button_ran">
-            <p>BUTTON</p>
+        <div class="fixed-top block-menu">
+
+            <div class="navbar pos-r">
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <img src="./assets/img/logo_burger.svg" alt="burger">
+                </button>
+            </div>
+            <div class="collapse social" id="navbarToggleExternalContent">
+                <div class="p-4 social-list">
+                    <span class="icon icon-fix icon-twitter ico-social text-muted"></span>
+                    <span class="icon icon-facebook ico-social facebook-ico text-muted"></span>
+                    <span class="icon icon-google-plus ico-social text-muted"></span>
+                    <span class="icon icon-instagram ico-social text-muted"></span>
+                    <span class="icon icon-dribble ico-social text-muted "></span>
+                    <span class="icon icon-search ico-social text-muted"></span>
+
+                </div>
+            </div>
         </div>
+
     </header>
-    <div class="container">        
-        <div>
-            <div></div>
-            <div></div>
+    <div class="containers">
+        <div class="block-one">
+                <div class="block-one-img">
+                    <img src="./assets/img/background_block_one.jpg" alt="champs">
+                </div>
+                <div class="block-one-center">
+                    <div class="block-one-title">
+                        <h1>
+                            <custoSK>Mark:</custoSK> responsive, professional PSD template.
+                        </h1>
+                    </div>
+                    <div class="block-one-para">
+                        Proin rhoncus ligula nec dictum volutpat. Curabitur eu magna vel massa laoreet condimentum. Cras
+                        vulputate pellentesque velit, non scelerisque neque porttitor ac. Nunc et mauris mi. Suspendisse
+                        potenti. Curabitur finibus congue metus, eu facilisis nisl fringilla viverra. Aenean pellentesque
+                        facilisis est quis dignissim.
+                    </div>
+            </div>
+            <div class="block-two"></div>
+            <div class="block-three"></div>
         </div>
-    </div>
 </body>
 
 </html>

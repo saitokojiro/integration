@@ -1,5 +1,160 @@
-@font-face
-{
+/*!----------------------Background-SVG-----------------------*/
+
+.icon {
+    display: inline-block;
+    width: 37px;
+    height: 35px;
+    background-size: cover;
+
+}
+
+.icon-fix {
+    display: inline-block;
+    width: 37px;
+    height: 30px;
+    background-size: cover;
+
+}
+
+.icon-twitter {
+    background-image: url(/assets/img/twitter.svg);
+
+}
+
+.icon-twitter {
+    filter: invert(0%) sepia(15%) saturate(0%) hue-rotate(346deg) brightness(104%) contrast(100%);
+    -webkit-filter: invert(0%) sepia(15%) saturate(0%) hue-rotate(346deg) brightness(104%) contrast(100%);
+}
+
+.icon-facebook {
+    background-image: url(/assets/img/facebook-2.svg);
+}
+
+.icon-facebook {
+    filter: invert(0%) sepia(15%) saturate(0%) hue-rotate(346deg) brightness(104%) contrast(100%);
+    -webkit-filter: invert(0%) sepia(15%) saturate(0%) hue-rotate(346deg) brightness(104%) contrast(100%);
+}
+
+
+.icon-google-plus {
+    background-image: url(/assets/img/google-plus-2.svg);
+}
+
+.icon-google-plus {
+    filter: invert(0%) sepia(15%) saturate(0%) hue-rotate(346deg) brightness(104%) contrast(100%);
+    -webkit-filter: invert(0%) sepia(15%) saturate(0%) hue-rotate(346deg) brightness(104%) contrast(100%);
+}
+
+
+.icon-instagram {
+    background-image: url(/assets/img/instagram-glyph.svg);
+}
+
+.icon-instagram {
+    filter: invert(0%) sepia(15%) saturate(0%) hue-rotate(346deg) brightness(104%) contrast(100%);
+    -webkit-filter: invert(0%) sepia(15%) saturate(0%) hue-rotate(346deg) brightness(104%) contrast(100%);
+}
+
+
+.icon-dribble {
+    background-image: url(/assets/img/dribbble-icon.svg);
+
+}
+
+.icon-dribble {
+    filter: invert(0%) sepia(15%) saturate(0%) hue-rotate(346deg) brightness(104%) contrast(100%);
+    -webkit-filter: invert(0%) sepia(15%) saturate(0%) hue-rotate(346deg) brightness(104%) contrast(100%);
+}
+
+
+.icon-search {
+    background-image: url(/assets/img/Search_Noun_project_15028.svg);
+}
+
+.icon-search {
+    filter: invert(0%) sepia(15%) saturate(0%) hue-rotate(346deg) brightness(104%) contrast(100%);
+    -webkit-filter: invert(0%) sepia(15%) saturate(0%) hue-rotate(346deg) brightness(104%) contrast(100%);
+}
+
+.social-list {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.ico-social {
+
+    width: 35px;
+    margin: 12px 7px;
+    fill: black
+}
+
+.facebook-ico {
+    width: 20px;
+    height: 39px
+}
+
+
+/*!-----------------------------------------------------------*/
+
+
+
+
+
+@font-face {
     font-family: ;
     src: url() format();
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+.pos-r {
+    display: flex !important;
+    flex-direction: row-reverse !important;
+}
+
+.social {
+    display: flex;
+    flex-direction: column !important;
+    align-items: flex-end !important;
+
+}
+
+.block-menu {
+    margin-right: 96px
+}
+
+.block-one-img {
+    z-index: 0;
+}
+
+@media screen and (max-width: 1920px) {
+    .block-one-img {
+        margin-top: -418px;
+    }
+
+}
+
+
+@media screen and (max-width: 1600px) {
+    .block-one-img {
+        margin-top: -385px;
+    }
+
+}
+
+
+.block-one-img>img {
+    width: 100%
+}
+
+.block-one-center {
+    margin-top: -25%;
+    margin-right: 539px;
+    text-align: center;
+    margin-left: 25%;
 }

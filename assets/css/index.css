@@ -112,18 +112,17 @@
     box-sizing: border-box;
 }
 
-custoSK
-{
-    
-    color:red
+custoSK {
+
+    color: red
 }
-h1{
+
+h1 {
     font-family: 'Bitter', serif;
     font-size: 2.9em;
 }
 
-.block-one-para
-{
+.block-one-para {
     font-family: 'Poppins', sans-serif;
     font-size: 0.9em;
     color: gray
@@ -177,4 +176,48 @@ h1{
     margin-right: 515px;
     margin-left: 447px;
     text-align: center;
+}
+
+.color-red {
+    color: red
+}
+
+.block-two {
+    margin-top: 500px;
+}
+
+.block-two-title {
+    margin-right: 826px;
+    margin-left: 737px;
+    margin-top: 633px;
+
+}
+
+.block-two-info {
+    margin-top: 68px;
+    margin-left: 951px;
+    margin-right: 529px;
+
+}
+
+.block-two-img
+{
+    margin-top: -449px;
+    margin-left: 468px;
+    margin-bottom: 0px;
+}
+
+.block-two-img>img {
+    width: 25.5%
+}
+
+.far{
+    margin-left: -34px;
+    margin-top: 0px;
+    margin-bottom: -25px;
+}
+svg{
+    margin-left: -34px;
+    margin-top: 0px;
+    margin-bottom: -25px;
 }

@@ -412,3 +412,18 @@ font-style: normal;
 
 
 }
+
+
+.fa-bold,
+.fa-free-code-camp,
+.fa-html5,
+.fa-cog,
+.fa-cloud,
+.fa-bolt
+{
+    font-size: 30px;    
+    position: relative;
+    right: -635px;
+    color: #333333;
+    top: 50px;
+}

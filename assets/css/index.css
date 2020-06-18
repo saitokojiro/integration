@@ -24,12 +24,60 @@
 }
 
 .fa-twitter {
-    margin-left: 4px !important;
-    margin-bottom: 4px !important;
+    margin-left: 0px !important;
+    margin-bottom: 8px !important;
     margin-right: 0px !important;
     font-size: 40px;
     color: #625c5c;
 }
+
+
+.fa-facebook-f
+{
+    margin-left: 6px !important;
+    margin-bottom: 8px !important;
+    margin-right: 0px !important;
+    font-size: 40px;
+    color: #625c5c;
+}
+
+.fa-google-plus-g
+{
+    margin-left: 4px !important;
+    margin-bottom: 8px !important;
+    margin-right: 0px !important;
+    font-size: 40px;
+    color: #625c5c;
+}
+
+.fa-instagram
+{
+    margin-left: 4px !important;
+    margin-bottom: 8px !important;
+    margin-right: 0px !important;
+    font-size: 40px;
+    color: #625c5c;
+}
+
+.fa-dribbble 
+{
+    margin-left: -2px !important;
+    margin-bottom: 8px !important;
+    margin-right: 0px !important;
+    font-size: 40px;
+    color: #625c5c;
+}
+
+.fa-search 
+{
+    margin-left: 0px !important;
+    margin-bottom: 48px !important;
+    margin-right: 0px !important;
+    font-size: 40px;
+    color: #625c5c;
+}
+
+
 
 .icon-fix {
     display: inline-block;

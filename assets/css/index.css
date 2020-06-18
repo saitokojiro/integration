@@ -327,7 +327,9 @@ font-style: normal;
 
 
 .block-three {
+    
     background-color: #d63c37;
+    
 
 }
 
@@ -337,7 +339,8 @@ font-style: normal;
     color: #fcfcfc;
     text-align: right;
     margin-right: 386px;
-    margin-top: 286px;
+    
+    padding-top: 250px;
     margin-bottom: 91px;
     text-decoration: underline;
 }

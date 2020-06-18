@@ -1,3 +1,18 @@
+* {
+    vertical-align: baseline;
+    font-weight: inherit;
+    font-family: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    border: 0 none;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+}
+
+
+/*!* { border: 1px solid black; }*/
+
 /*!----------------------Background-SVG-----------------------*/
 
 .icon {
@@ -6,6 +21,14 @@
     height: 35px;
     background-size: cover;
 
+}
+
+.fa-twitter {
+    margin-left: 4px !important;
+    margin-bottom: 4px !important;
+    margin-right: 0px !important;
+    font-size: 40px;
+    color: #625c5c;
 }
 
 .icon-fix {
@@ -99,12 +122,11 @@
 
 
 
-
-
+/*
 @font-face {
     font-family: ;
     src: url() format();
-}
+}*/
 
 *,
 *::after,
@@ -153,7 +175,8 @@ h1 {
 @media screen and (max-width: 1920px) {
     .block-one-img {
         /* margin-top: -418px;*/
-        margin-top: -314px;
+        /*margin-top: -314px;*/
+        margin-top: -300px;
     }
 
 }
@@ -178,18 +201,24 @@ h1 {
     text-align: center;
 }
 
+
+/*!---------------------------------------------------------------------------------*/
+
+
 .color-red {
     color: red
 }
 
 .block-two {
-    margin-top: 500px;
+    /*!margin-top: 500px;*/
+    margin-top: 720px;
 }
 
 .block-two-title {
-    margin-right: 826px;
+    margin-right: 800px;
     margin-left: 737px;
-    margin-top: 633px;
+    /*!margin-top: 619px;*/
+    padding-bottom: 88px;
 
 }
 
@@ -200,8 +229,7 @@ h1 {
 
 }
 
-.block-two-img
-{
+.block-two-img {
     margin-top: -449px;
     margin-left: 468px;
     margin-bottom: 0px;
@@ -211,13 +239,128 @@ h1 {
     width: 25.5%
 }
 
-.far{
+.far {
     margin-left: -34px;
     margin-top: 0px;
     margin-bottom: -25px;
 }
-svg{
+
+.svg-inline--fa {
     margin-left: -34px;
     margin-top: 0px;
     margin-bottom: -25px;
+}
+
+
+
+
+/*!---------------------------------------------------------------------------------*/
+
+/*!       
+
+font-family: aileron, sans-serif;
+
+font-family: aileron, sans-serif;
+
+font-style: normal;
+
+
+
+
+
+font-family: aileron, sans-serif;
+
+font-weight: 700;
+
+font-style: normal;
+
+
+*/
+
+
+.block-three {
+    background-color: #d63c37;
+
+}
+
+.block-three-title {
+    font-family: 'Caladea', serif;
+    font-size: 3em;
+    color: #fcfcfc;
+    text-align: right;
+    margin-right: 386px;
+    margin-top: 286px;
+    margin-bottom: 91px;
+    text-decoration: underline;
+}
+
+.block-three-container {
+    display: grid;
+    grid-template-columns: 0.5fr 1.5fr 0.5fr 1.5fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas: ". block-three-discov-two . block-three-discov-one ."". block-three-discov-four . block-three-discov-three ."". . . block-three-discov-five .";
+}
+
+
+
+
+
+
+.block-three-discov-one {
+    grid-area: block-three-discov-one;
+}
+
+.block-three-discov-two {
+    grid-area: block-three-discov-two;
+}
+
+.block-three-discov-three {
+    grid-area: block-three-discov-three;
+}
+
+.block-three-discov-four {
+    grid-area: block-three-discov-four;
+}
+
+.block-three-discov-five {
+    grid-area: block-three-discov-five;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*
+.block-disco{
+    margin: auto 660px;
+    border: 1px solid black ;
+}
+*/
+.disc-title {
+    ffont-family: aileron, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2em;
+    color: #333333;
+    text-align: right;
+
+}
+
+.disc-para {
+    ffont-family: aileron, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5em;
+    text-align: right;
+    color: #333333;
+
+
+
 }
